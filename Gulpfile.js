@@ -3,7 +3,7 @@
 var gulp = require('gulp');
 
 // import local config
-var config = require('./Gulp.conf.js');
+var config = require('./gulp.conf.js');
 
 // lazy load plugins - $$.clean instead of requiring it
 // don't forget to npm install the plugins!
