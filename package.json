@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "repository": "https://github.com/dmitriz/travis-minimal-test/",
   "devDependencies": {
+    "gulp": "lastest"
   },
   "scripts": {
     "test": "echo Running!"
