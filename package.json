@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "repository": "https://github.com/dmitriz/travis-minimal-test/",
   "dependencies": {
-    "gulp": "^3.8.11"
+    "gulp": "^3.8.11",
+    "gulp-load-plugins": "^0.5.3"
   },
   "scripts": {
     "test": "gulp"
