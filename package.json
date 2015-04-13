@@ -6,6 +6,6 @@
     "gulp": "^3.8.11"
   },
   "scripts": {
-    "test": "echo Running!"
+    "test": "gulp"
   }
 }
