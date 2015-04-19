@@ -25,7 +25,9 @@ var config = {
 }
 
 // To keep Travis CI happy
-gulp.task('test', function () {});
+gulp.task('test', function () {
+  console.log("Travis is happy with you!");
+});
 
 // The default task - called when you run `gulp` from CLI
 gulp.task('default', ['prepare', 'watch']);
