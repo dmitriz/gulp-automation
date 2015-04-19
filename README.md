@@ -27,3 +27,8 @@ cd gulp-automation
 gulp
 ```
 and **don't worry** when it "jumps" to your browser - we are trying hard to save you from manual work ;)
+
+## Now enjoy and read more tips in that file that loads in your browser!
+
+Are you still here? No, we won't tell what else you see there until you do it ;-)
+
