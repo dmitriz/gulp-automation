@@ -12,6 +12,7 @@
     "opn": "^1.0.1"
   },
   "scripts": {
+    "test": "gulp",
     "start": "gulp"
   }
 }
