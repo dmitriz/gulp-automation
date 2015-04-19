@@ -49,7 +49,7 @@ gulp.task('serve', ['connect'], function () {
 
 gulp.task('connect', function(){
   return connect()
-    //.use(connectLivereload())
+    .use(connectLivereload())
     .use(connect.static(config.rootDir))
     .listen(config.servingPort);
 });
