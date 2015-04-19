@@ -1,14 +1,11 @@
 {
   "name": "node-travis",
   "version": "0.1.0",
-  "repository": "https://github.com/dmitriz/travis-minimal-test/",
+  "repository": "https://github.com/dmitriz/gulp-automation/",
+  "description": "The simplest Live Reload environment",  
   "dependencies": {
-    "gulp": "^3.8.11",
-    "gulp-load-plugins": "^0.5.3",
-    "gulp-uglify": "^0.2.1",
-    "gulp-filter": "^0.4.1"
   },
   "scripts": {
-    "test": "gulp"
+    "start": "gulp"
   }
 }

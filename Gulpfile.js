@@ -1,26 +1,37 @@
 'use strict';
 
-var gulp = require('gulp');
+// Main Config
+var config = {
+	rootDir: __dirname,
+	servingPort: 9000,
+	filesToWatch: ['*.{html,css,js}', '!karma.conf.js', '!protractor.conf.js']
+}
 
-// import local config
-var config = require('./gulp.conf.js');
+var gulp = require('gulp');
 
 // lazy load plugins - $$.clean instead of requiring it
 // don't forget to npm install the plugins!
 var $$ = require('gulp-load-plugins')();
 
-// The default task - called when you run `gulp` from cli
-gulp.task('default', ['build'], function () {
+// The default task - called when you run `gulp` from CLI
+gulp.task('default', ['watch'], function () {
 });
 
-gulp.task('build', ['js'], function () {
+gulp.task('watch', ['connect', 'serve'], function () {
+  gulp.watch(config.filesToWatch, function (file) {
+    $$.livereload().changed(file.path);
+    console.log(file.path, " is reloaded!");
+  });
 });
 
-// compiling js files
-gulp.task('js', function () {
-  //var filter = $$.filter(config.globs.js);
+gulp.task('connect', function(){
+  var connect = require('connect');
+  return connect()
+    .use(require('connect-livereload')())
+    .use(connect.static(rootDir))
+    .listen(servingPort);
+});
 
-  return gulp.src(config.paths.js)
-    .pipe($$.uglify())
-    .pipe(gulp.dest(config.dirs.min));
+gulp.task('serve', ['connect'], function () {
+  return require('opn')('http://localhost:' + servingPort);
 });
