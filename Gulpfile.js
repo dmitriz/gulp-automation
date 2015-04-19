@@ -1,12 +1,5 @@
 'use strict';
 
-/* 
- * Don't forget to `npm install` these packages before running this script:
- *
- *```sh
- * 	npm install gulp gulp-load-plugins gulp-livereload connect connect-livereload opn --save 
-*/
-
 var gulp = require('gulp');
 var connect = require('connect');
 var connectLivereload = require('connect-livereload');
@@ -30,10 +23,7 @@ gulp.task('test', function () {
 });
 
 // The default task - called when you run `gulp` from CLI
-gulp.task('default', ['prepare', 'watch', 'serve']);
-
-gulp.task('prepare', function () {
-});
+gulp.task('default', ['watch', 'serve']);
 
 gulp.task('watch', ['connect'], function () {
   gulpLivereload.listen();
