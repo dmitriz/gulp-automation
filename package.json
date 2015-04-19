@@ -2,8 +2,14 @@
   "name": "node-travis",
   "version": "0.1.0",
   "repository": "https://github.com/dmitriz/gulp-automation/",
-  "description": "The simplest Live Reload environment",  
+  "description": "The simplest Live Reload environment",
   "dependencies": {
+    "connect": "^2.14.4",
+    "connect-livereload": "^0.5.3",
+    "gulp": "^3.8.11",
+    "gulp-livereload": "^1.2.0",
+    "gulp-load-plugins": "^0.10.0",
+    "opn": "^1.0.1"
   },
   "scripts": {
     "start": "gulp"

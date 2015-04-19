@@ -1,17 +1,31 @@
 'use strict';
 
-// Main Config
+/* 
+ * Don't forget to `npm install` these packages before running this script:
+ *
+ *```sh
+ * 	npm install gulp gulp-load-plugins gulp-livereload connect connect-livereload opn --save 
+*/
+
+var gulp = require('gulp');
+var connect = require('connect');
+var connectLivereload = require('connect-livereload');
+var opn = require('opn');
+
+// lazy load plugins - $$.clean instead of requiring it
+// don't forget to npm install the individual plugins!
+var $$ = require('gulp-load-plugins')();
+
+/*
+ * ---------->  Main Config  <-------------
+ */
 var config = {
 	rootDir: __dirname,
 	servingPort: 9000,
+
+	// the files you want to watch for changes for live reload
 	filesToWatch: ['*.{html,css,js}', '!karma.conf.js', '!protractor.conf.js']
 }
-
-var gulp = require('gulp');
-
-// lazy load plugins - $$.clean instead of requiring it
-// don't forget to npm install the plugins!
-var $$ = require('gulp-load-plugins')();
 
 // The default task - called when you run `gulp` from CLI
 gulp.task('default', ['watch'], function () {
@@ -24,14 +38,13 @@ gulp.task('watch', ['connect', 'serve'], function () {
   });
 });
 
-gulp.task('connect', function(){
-  var connect = require('connect');
-  return connect()
-    .use(require('connect-livereload')())
-    .use(connect.static(rootDir))
-    .listen(servingPort);
+gulp.task('serve', ['connect'], function () {
+  return opn('http://localhost:' + config.servingPort);
 });
 
-gulp.task('serve', ['connect'], function () {
-  return require('opn')('http://localhost:' + servingPort);
+gulp.task('connect', function(){
+  return connect()
+    .use(connectLivereload())
+    .use(connect.static(config.rootDir))
+    .listen(config.servingPort);
 });
