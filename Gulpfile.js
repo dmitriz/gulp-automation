@@ -11,10 +11,7 @@ var gulp = require('gulp');
 var connect = require('connect');
 var connectLivereload = require('connect-livereload');
 var opn = require('opn');
-
-// lazy load plugins - $$.clean instead of requiring it
-// don't forget to npm install the individual plugins!
-var $$ = require('gulp-load-plugins')();
+var gulpLivereload = require('gulp-livereload');
 
 /*
  * ---------->  Main Config  <-------------
@@ -31,12 +28,15 @@ var config = {
 gulp.task('test', function () {});
 
 // The default task - called when you run `gulp` from CLI
-gulp.task('default', ['watch'], function () {
+gulp.task('default', ['prepare', 'watch']);
+
+gulp.task('prepare', function () {
+  gulpLivereload();
 });
 
 gulp.task('watch', ['connect', 'serve'], function () {
   gulp.watch(config.filesToWatch, function (file) {
-    $$.livereload().changed(file.path);
+    gulpLivereload().changed(file.path);
     console.log(file.path, " is reloaded!");
   });
 });
