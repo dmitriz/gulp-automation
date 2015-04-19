@@ -5,11 +5,11 @@
   "description": "The simplest Live Reload environment",
   "dependencies": {
     "connect": "^2.14.4",
-    "connect-livereload": "^0.5.3",
-    "gulp": "^3.8.11",
+    "connect-livereload": "^0.4.0",
+    "gulp": "^3.8.5",
     "gulp-livereload": "^1.2.0",
-    "gulp-load-plugins": "^0.10.0",
-    "opn": "^1.0.1"
+    "gulp-load-plugins": "^0.5.3",
+    "opn": "^0.1.2"
   },
   "scripts": {
     "test": "gulp",
