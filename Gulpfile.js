@@ -21,7 +21,7 @@ var $$ = require('gulp-load-plugins')();
  */
 var config = {
 	rootDir: __dirname,
-	servingPort: 8090,
+	servingPort: 8080,
 
 	// the files you want to watch for changes for live reload
 	filesToWatch: ['*.{html,css,js}', '!karma.conf.js', '!protractor.conf.js']
