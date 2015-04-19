@@ -30,12 +30,12 @@ gulp.task('test', function () {
 });
 
 // The default task - called when you run `gulp` from CLI
-gulp.task('default', ['prepare', 'watch']);
+gulp.task('default', ['prepare', 'watch', 'serve']);
 
 gulp.task('prepare', function () {
 });
 
-gulp.task('watch', ['connect', 'serve'], function () {
+gulp.task('watch', ['connect'], function () {
   gulpLivereload.listen();
   gulp.watch(config.filesToWatch, function(file) {
     gulp.src(file.path)
@@ -49,7 +49,7 @@ gulp.task('serve', ['connect'], function () {
 
 gulp.task('connect', function(){
   return connect()
-    .use(connectLivereload())
+    //.use(connectLivereload())
     .use(connect.static(config.rootDir))
     .listen(config.servingPort);
 });
