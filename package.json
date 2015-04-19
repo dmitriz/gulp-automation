@@ -9,7 +9,7 @@
     "gulp": "^3.8.5",
     "gulp-livereload": "^3.8.0",
     "gulp-load-plugins": "^0.5.3",
-    "opn": "^0.1.2"
+    "opn": "^1.0.1"
   },
   "scripts": {
     "test": "gulp test",
