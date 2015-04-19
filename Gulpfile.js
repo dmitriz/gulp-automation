@@ -1,5 +1,7 @@
 'use strict';
 
+var LIVERELOAD_PORT = 35729;
+
 // import local config
 var config = require('./Gulp.conf.js');
 
