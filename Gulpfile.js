@@ -27,6 +27,9 @@ var config = {
 	filesToWatch: ['*.{html,css,js}', '!karma.conf.js', '!protractor.conf.js']
 }
 
+// To keep Travis CI happy
+gulp.task('test', function () {});
+
 // The default task - called when you run `gulp` from CLI
 gulp.task('default', ['watch'], function () {
 });
