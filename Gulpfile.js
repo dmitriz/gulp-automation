@@ -21,7 +21,7 @@ var config = {
 	servingPort: 8080,
 
 	// the files you want to watch for changes for live reload
-	filesToWatch: ['*.{html,css,js}', '!karma.conf.js', '!protractor.conf.js']
+	filesToWatch: ['*.{html,css,js}', '!Gulpfile.js', '!karma.conf.js', '!protractor.conf.js']
 }
 
 // To keep Travis CI happy
@@ -33,13 +33,13 @@ gulp.task('test', function () {
 gulp.task('default', ['prepare', 'watch']);
 
 gulp.task('prepare', function () {
-  gulpLivereload();
 });
 
 gulp.task('watch', ['connect', 'serve'], function () {
-  gulp.watch(config.filesToWatch, function (file) {
-    gulpLivereload().changed(file.path);
-    console.log(file.path, " is reloaded!");
+  gulpLivereload.listen();
+  gulp.watch(config.filesToWatch, function(file) {
+    gulp.src(file.path)
+      .pipe(gulpLivereload());
   });
 });
 
