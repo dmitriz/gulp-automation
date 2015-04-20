@@ -1,5 +1,5 @@
 {
-  "name": "node-travis",
+  "name": "gulp-livereload",
   "version": "0.1.0",
   "repository": "https://github.com/dmitriz/gulp-automation/",
   "description": "The simplest Live Reload environment",
@@ -9,9 +9,5 @@
     "gulp": "^3.8.5",
     "gulp-livereload": "^3.8.0",
     "opn": "^1.0.1"
-  },
-  "scripts": {
-    "test": "gulp test",
-    "start": "gulp"
   }
 }
