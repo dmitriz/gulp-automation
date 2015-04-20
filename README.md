@@ -5,7 +5,7 @@ Automating the most painful parts of your code management!
 Status](https://travis-ci.org/dmitriz/gulp-automation.svg?branch=master)](https://travis-ci.org/dmitriz/gulp-automation)
 
 ## LiveReload
-**LiveReload** monitors changes in your files and instantly updates all changes in your browser. It is very useful when you are updating your site and don't want to keep manually reloading the page in your browser again and again after every edit.
+**LiveReload** monitors changes in your files and instantly updates all changes in your browser. It is very useful when you are updating your site and **don't want to keep manually reloading** the page in your browser again and again after every edit.
 
 Surprisingly there seems to be lack of **simple clean working solutions** that are **easy to install, maintain and customize**. 
 
