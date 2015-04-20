@@ -11,9 +11,9 @@ Surprisingly there seems to be lack of **simple clean working solutions** that a
 
 Many of them are based on installing a **Chrome browser extension**. However, in addition to being **limited** to the Chrome browser, [Chrome extensions are **vulnerable**](http://www.techrepublic.com/blog/it-security/chrome-extensions-are-vulnerable-advantage-bad-guys/).
 
-Other solutions are based on manually adding a script tag inside your HTML file. This adds to the maintenance headache to remember removing it from your production code, among others.
+Other solutions are based on manually adding a script tag inside your HTML file. This adds to the **maintenance headache** to remember removing it from your production code, among others.
 
-Both extension and extra tags are completely unnecessary!
+Both extension and extra tags are completely **unnecessary**!
 
 ## Dead simple way to enjoy Live Reload!
 
