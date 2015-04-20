@@ -33,7 +33,7 @@ This should create the local subdirectory gulp-automation. Change to it:
 cd gulp-automation
 ```
 
-- **That's it!** Now start your Local server and Live reload with one simple command:
+- **That's it!** Now start your Local server and Live reload with **one simple command**:
 ```sh
 gulp
 ```
