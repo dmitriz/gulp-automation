@@ -15,7 +15,7 @@ Other solutions are based on manually adding a script tag inside your HTML file.
 
 Both extension and extra tags are completely **unnecessary**!
 
-## Dead simple way to enjoy Live Reload!
+## Dead simple way to enjoy LiveReload!
 
 - Download and Install [Node.js](https://nodejs.org/download/), see [How do I get started with Node.js](http://stackoverflow.com/questions/2353818/how-do-i-get-started-with-node-js) and [Fixing npm permissions](https://docs.npmjs.com/getting-started/fixing-npm-permissions) for more information.
 
@@ -33,7 +33,7 @@ This should create the local subdirectory gulp-automation. Change to it:
 cd gulp-automation
 ```
 
-- **That's it!** Now start your Local server and Live reload with **one simple command**:
+- **That's it!** Now start your Local Server and LiveReload with **one simple command**:
 ```sh
 gulp
 ```
