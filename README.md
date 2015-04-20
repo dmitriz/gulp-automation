@@ -9,7 +9,7 @@ Status](https://travis-ci.org/dmitriz/gulp-automation.svg?branch=master)](https:
 
 Surprisingly there seems to be lack of **simple clean working solutions** that are **easy to install, maintain and customize**. 
 
-Many of them are based on installing a **Chrome browser extension**. However, in addition to being **limited** to Chrome browser, [Chrome extensions are **vulnerable**](http://www.techrepublic.com/blog/it-security/chrome-extensions-are-vulnerable-advantage-bad-guys/).
+Many of them are based on installing a **Chrome browser extension**. However, in addition to being **limited** to the Chrome browser, [Chrome extensions are **vulnerable**](http://www.techrepublic.com/blog/it-security/chrome-extensions-are-vulnerable-advantage-bad-guys/).
 
 Other solutions are based on manually adding a script tag inside your HTML file. This adds to the maintenance headache to remember removing it from your production code, among others.
 
