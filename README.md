@@ -5,13 +5,13 @@ Automating the most painful parts of your code management!
 Status](https://travis-ci.org/dmitriz/gulp-automation.svg?branch=master)](https://travis-ci.org/dmitriz/gulp-automation)
 
 ## LiveReload
-**LiveReload** monitors changes in your files and instantly update all changes in your browser. It is very useful when you are updating your site and don't want to keep manually reloading the page in your browser after every edit.
+**LiveReload** monitors changes in your files and instantly updates all changes in your browser. It is very useful when you are updating your site and don't want to keep manually reloading the page in your browser again and again after every edit.
 
-Surprisingly there seem to be a lack of **simple clean working solution** that is **easy to install, maintain and customize**. 
+Surprisingly there seems to be lack of **simple clean working solutions** that are **easy to install, maintain and customize**. 
 
 Many of them are based on installing a **Chrome browser extension**. However, in addition to being **limited** to Chrome browser, [Chrome extensions are **vulnerable**](http://www.techrepublic.com/blog/it-security/chrome-extensions-are-vulnerable-advantage-bad-guys/).
 
-Other solutions are based on manually adding a script tag inside your HTML file. This adds to maintenance headache to remember removing it from your production code, among others.
+Other solutions are based on manually adding a script tag inside your HTML file. This adds to the maintenance headache to remember removing it from your production code, among others.
 
 Both extension and extra tags are completely unnecessary!
 
