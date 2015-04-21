@@ -20,7 +20,7 @@ Both extension and extra tags are completely **unnecessary**!
 - Download and Install [Node.js](https://nodejs.org/download/), see [How do I get started with Node.js](http://stackoverflow.com/questions/2353818/how-do-i-get-started-with-node-js) for more information.
 
 - [Download this Repository](https://github.com/dmitriz/gulp-automation/archive/master.zip),
-unzip it and change to the created subdirectory `gulp-automation`.
+unzip it and change to the created subdirectory `gulp-automation-master`.
 
 - **That's it!** Now start your Local Server and LiveReload with **one simple command**:
 ```sh
