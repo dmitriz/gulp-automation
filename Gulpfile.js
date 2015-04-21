@@ -26,6 +26,10 @@ var config = {
 	filesToWatch: ['*.{html,css,js}', '!Gulpfile.js']
 }
 
+/*
+ * ---------->  Gulp Tasks  <-------------
+ */
+
 // The default task - called when you run `gulp` from CLI
 gulp.task('default', ['watch', 'serve']);
 

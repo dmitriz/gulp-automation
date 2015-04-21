@@ -9,5 +9,9 @@
     "gulp": "^3.8.5",
     "gulp-livereload": "^3.8.0",
     "opn": "^1.0.1"
+  },
+  "scripts": {
+    "start": "gulp",
+    "start-m": "gulp"
   }
 }
