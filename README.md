@@ -29,7 +29,11 @@ npm start
 
 ## Is LiveReload all it can do?
 
-**No!** When building your site, you need many other tools like [Error checking (linting)](http://stackoverflow.com/questions/8503559/what-is-linting), [Minification](http://en.wikipedia.org/wiki/Minification_(programming)) and [Concatenation](https://hacks.mozilla.org/2012/12/fantastic-front-end-performance-part-1-concatenate-compress-cache-a-node-js-holiday-season-part-4/) for shorter load times and better performance. This is where the [Gulp.js automating system](http://gulpjs.com/) shines at its best.
+**No!** When building your site, you need many other tools like [Error checking (linting)](http://stackoverflow.com/questions/8503559/what-is-linting), [Minification](http://en.wikipedia.org/wiki/Minification_(programming)) and [Concatenation](https://hacks.mozilla.org/2012/12/fantastic-front-end-performance-part-1-concatenate-compress-cache-a-node-js-holiday-season-part-4/) for shorter load times and better performance. 
+
+This is where the [Gulp.js automating system](http://gulpjs.com/) shines at its best. It has great rapidly growing community proving [open source plugins](http://gulpjs.com/plugins/) for all possible tasks you can imagine.
+
+Use provided `Gulpfile.js` to edit and add more tasks or write a new one!
 
 
 ## Now enjoy and read more tips in that file that loads in your browser!
@@ -43,8 +47,6 @@ Are you still here? No, we won't tell what else you see there until you do it ;-
 
 If they work great for you - by all means use them!
 Should they stop working great for you - come back and try this one;-)
-
-- Why Gulp?
 
 
 
