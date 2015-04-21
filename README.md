@@ -25,7 +25,7 @@ unzip it and change to the created subdirectory `gulp-automation-master`.
 - **That's it!** Now start your Local Server, LiveReload and your Browser pointing to the right location with **one single command** in your terminal:
 ```sh
 npm start
-
+```
 
 ## Now enjoy and read more tips in that file that loads in your browser!
 
