@@ -22,13 +22,18 @@ Both extension and extra tags are completely **unnecessary**!
 - [Download this Repository](https://github.com/dmitriz/gulp-automation/archive/master.zip),
 unzip it and change to the created subdirectory `gulp-automation-master`.
 
-- **That's it!** Now start your Local Server and LiveReload with **one simple command**:
+- **That's it!** Now start your Local Server, LiveReload and your Browser pointing to the right location with **one simple command**:
 ```sh
 npm start
 ```
 and **don't worry** when it "jumps" to your browser - we are trying hard to save you from manual work ;)
 
+
 ## Now enjoy and read more tips in that file that loads in your browser!
 
 Are you still here? No, we won't tell what else you see there until you do it ;-)
 
+
+## Still problems or suggestions?
+
+[Send your Feedback!](https://github.com/dmitriz/gulp-automation/issues/new)
