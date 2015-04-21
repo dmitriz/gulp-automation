@@ -47,7 +47,7 @@ Are you still here? No, we won't tell what else you see there until you do it ;-
 
   - To set you up and running with working LiveReload in *minimal possible time, with minimum steps*.
   - To provide the simple commented configuration file `Gulpfile.js`, where you can see all "magic" happen and how you can adapt it to your needs. For easy learning and playing :-)
-  - To show the power of `Gulp.js` and `Node.js`.
+  - To show the power of [**Gulp.js**](http://gulpjs.com/) and [**Node.js**](https://nodejs.org/).
 
 - What about other LiveReload solutions that work great (for me)?
 
