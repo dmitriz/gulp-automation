@@ -1,6 +1,6 @@
 {
-  "name": "gulp-livereload",
-  "version": "0.1.0",
+  "name": "dz-gulp-automation",
+  "version": "0.2.0",
   "repository": "https://github.com/dmitriz/gulp-automation/",
   "description": "The simplest Live Reload environment",
   "dependencies": {
