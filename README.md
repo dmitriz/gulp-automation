@@ -19,14 +19,8 @@ Both extension and extra tags are completely **unnecessary**!
 
 - Download and Install [Node.js](https://nodejs.org/download/), see [How do I get started with Node.js](http://stackoverflow.com/questions/2353818/how-do-i-get-started-with-node-js) and [Fixing npm permissions](https://docs.npmjs.com/getting-started/fixing-npm-permissions) for more information.
 
-- Copy (clone) this repository into your local directory by typing in your terminal window:
-```sh
-git clone https://github.com/dmitriz/gulp-automation.git
-```
-This should create the local subdirectory gulp-automation. Change to it:
-```sh
-cd gulp-automation
-```
+- [Download this Repository](https://github.com/dmitriz/gulp-automation/archive/master.zip),
+unzip it and change to the created subdirectory `gulp-automation`.
 
 - **That's it!** Now start your Local Server and LiveReload with **one simple command**:
 ```sh
