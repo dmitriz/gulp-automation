@@ -43,11 +43,24 @@ Are you still here? No, we won't tell what else you see there until you do it ;-
 
 ## FAQ
 
-- What about other solutions that work great (for me)?
+- What is the point of this solution?
 
-If they work great for you - by all means use them!
-Should they stop working great for you - come back and try this one;-)
+  - To set you up and running with working LiveReload in *minimal possible time, with minimum steps*.
+  - To provide the simple commented configuration file `Gulpfile.js`, where you can all "magic" happens and how you can adapt it to your needs. For easy learning and playing :-)
+  - To show the power of `Gulp.js` and `Node.js`.
 
+- What about other LiveReload solutions that work great (for me)?
+
+This is not only about LiveReload! 
+Have a look at the simple `Gulpfile.js` and extend it to work hard for
+many other tasks to **save your time** in the future.
+
+- Why are the *Node.js packages* are included?
+
+For the same reason that batteries are included when you buy a camera :=)
+It is more convenient for folks less used to Node.js to get them up and running quicker.
+The packages included are tested. 
+Installing all packages locally instead with `npm install` should work too.
 
 
 ## Still having problems or suggestions?
