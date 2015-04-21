@@ -31,7 +31,7 @@ npm start
 
 **No!** When building your site, you need many other tools like [Error checking (linting)](http://stackoverflow.com/questions/8503559/what-is-linting), [Minification](http://en.wikipedia.org/wiki/Minification_(programming)) and [Concatenation](https://hacks.mozilla.org/2012/12/fantastic-front-end-performance-part-1-concatenate-compress-cache-a-node-js-holiday-season-part-4/) for shorter load times and better performance. 
 
-This is where the [Gulp.js automating system](http://gulpjs.com/) shines at its best. It has great rapidly growing community proving [open source plugins](http://gulpjs.com/plugins/) for all possible tasks you can imagine.
+This is where the [Gulp.js automating system](http://gulpjs.com/) shines at its best. It has great rapidly growing community proving [open source plugins](http://gulpjs.com/plugins/) for all possible tasks you can imagine. Just <code>google "gulp <whatever task you want>"</code> ;)
 
 Use [provided `Gulpfile.js`](https://github.com/dmitriz/gulp-automation/blob/master/Gulpfile.js) to edit and add more tasks or write a new one!
 
