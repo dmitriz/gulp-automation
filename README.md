@@ -46,12 +46,12 @@ Are you still here? No, we won't tell what else you see there until you do it ;-
 - What is the point of this solution?
 
   - To set you up and running with working LiveReload in *minimal possible time, with minimum steps*.
-  - To provide the simple commented configuration file `Gulpfile.js`, where you can all "magic" happens and how you can adapt it to your needs. For easy learning and playing :-)
+  - To provide the simple commented configuration file `Gulpfile.js`, where you can see all "magic" happen and how you can adapt it to your needs. For easy learning and playing :-)
   - To show the power of `Gulp.js` and `Node.js`.
 
 - What about other LiveReload solutions that work great (for me)?
 
-This is not only about LiveReload! 
+This is **not only** about LiveReload! 
 Have a look at the simple `Gulpfile.js` and extend it to work hard for
 many other tasks to **save your time** in the future.
 
