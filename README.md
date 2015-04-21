@@ -33,7 +33,7 @@ npm start
 
 This is where the [Gulp.js automating system](http://gulpjs.com/) shines at its best. It has great rapidly growing community proving [open source plugins](http://gulpjs.com/plugins/) for all possible tasks you can imagine.
 
-Use provided [`Gulpfile.js`](https://github.com/dmitriz/gulp-automation/blob/master/Gulpfile.js) to edit and add more tasks or write a new one!
+Use [provided `Gulpfile.js`](https://github.com/dmitriz/gulp-automation/blob/master/Gulpfile.js) to edit and add more tasks or write a new one!
 
 
 ## Now enjoy and read more tips in that file that loads in your browser!
