@@ -34,7 +34,9 @@ Are you still here? No, we won't tell what else you see there until you do it ;-
 
 ## FAQ
 
-- What about other solutions that work great?
+- What about other solutions that work great (for me)?
+If they work great for you - by all means use them!
+Should they stop working great for you - come back and try this one ;-)
 
 ## Still having problems or suggestions?
 
