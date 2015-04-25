@@ -1,8 +1,15 @@
 {
   "name": "dz-gulp-automation",
-  "version": "0.2.0",
-  "repository": "https://github.com/dmitriz/gulp-automation/",
   "description": "The simplest Live Reload environment",
+  "version": "0.2.0",
+  "author": {
+    "name": "Dmitri Zaitsev",
+    "email" : "dmitri14@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dmitriz/gulp-automation.git"
+  },
   "dependencies": {
     "connect": "^2.14.4",
     "connect-livereload": "^0.5.3",
@@ -12,5 +19,9 @@
   },
   "scripts": {
     "start": "gulp"
+  },
+  "bugs": {
+    "url" : "https://github.com/dmitriz/gulp-automation/issues/",
+    "email" : "dmitri14@gmail.com"
   }
 }
