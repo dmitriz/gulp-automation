@@ -1,5 +1,3 @@
-'use strict';
-
 /*
  * --->  Loading External Node.js Modules  <------
  */
