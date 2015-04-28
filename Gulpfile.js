@@ -36,6 +36,8 @@ gulp.task('watch', ['connect'], function () {
   gulpLivereload.listen();
   gulp.watch(config.filesToWatch, function(file) {
     gulp.src(file.path)
+
+      // notify server about changes
       .pipe(gulpLivereload());
   });
 });
@@ -48,6 +50,9 @@ gulp.task('serve', ['connect'], function () {
 // `gulp connect` task starting your server
 gulp.task('connect', function(){
   return connect()
+
+    // inject JavaScript into our page to listen for change notifications:
+    // <script src="//localhost:35729/livereload.js?snipver=1"></script>
     .use(connectLivereload())
     .use(connect.static(config.rootDir))
     .listen(config.servingPort);
