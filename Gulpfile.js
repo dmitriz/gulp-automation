@@ -33,12 +33,15 @@ gulp.task('default', ['watch', 'serve']);
 
 // `gulp watch` task watching for file changes
 gulp.task('watch', ['connect'], function () {
-  gulpLivereload.listen();
+
+  // =========== > removing this command to test the start option!!!
+  //gulpLivereload.listen();
   gulp.watch(config.filesToWatch, function(file) {
     gulp.src(file.path)
 
       // notify server about changes
-      .pipe(gulpLivereload());
+      //.pipe(gulpLivereload());
+      .pipe(gulpLivereload({ start: true }));
   });
 });
 
