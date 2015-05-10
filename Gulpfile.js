@@ -33,8 +33,16 @@ gulp.task('default', ['watch', 'serve']);
 
 // `gulp watch` task watching for file changes
 gulp.task('watch', ['connect'], function () {
+
+  // start livereload server (at the default port 35729)
+  //   https://github.com/vohof/gulp-livereload#install
   gulpLivereload.listen();
+
+  // watch for file changes
   gulp.watch(config.filesToWatch, function(file) {
+
+    // get the changed file 
+    //   not needed here but useful for fine grained customizations
     gulp.src(file.path)
 
       // notify server about changes
@@ -44,16 +52,23 @@ gulp.task('watch', ['connect'], function () {
 
 // `gulp serve` task loading the URL in your browser 
 gulp.task('serve', ['connect'], function () {
-  return opn('http://localhost:' + config.servingPort);
+  opn('http://localhost:' + config.servingPort);
 });
 
 // `gulp connect` task starting your server
 gulp.task('connect', function(){
-  return connect()
 
-    // inject JavaScript into our page to listen for change notifications:
-    // <script src="//localhost:35729/livereload.js?snipver=1"></script>
+  // connect server for our files (unrelated to the livereload server)
+  connect()
+
+    // inject JavaScript into our page with `index.html` to listen for change notifications:
+    //   <script src="//localhost:35729/livereload.js?snipver=1"></script>
     .use(connectLivereload())
+
+    // specify the root directory for our connect server
     .use(connect.static(config.rootDir))
+
+    // start the server at the given port
+    //   now we can view our `index.html` in the root under `localhost:port`
     .listen(config.servingPort);
 });
