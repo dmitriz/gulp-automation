@@ -5,7 +5,7 @@ Automating the most painful parts of your code management!
 Status](https://travis-ci.org/dmitriz/gulp-automation.svg?branch=master)](https://travis-ci.org/dmitriz/gulp-automation)
 
 ## LiveReload
-**LiveReload** monitors changes in your files and instantly updates all changes in your browser. It is very useful when you are updating your site and **don't want to keep manually reloading** the page in your browser again and again after every edit.
+[**LiveReload**](http://livereload.com/) monitors changes in your files and instantly updates all changes in your browser. It is very useful when you are updating your site and **don't want to keep manually reloading** the page in your browser again and again after every edit.
 
 Surprisingly there seems to be lack of **simple clean working solutions** that are **easy to install, maintain and customize**. 
 
@@ -34,6 +34,16 @@ npm start
 This is where the [Gulp.js automating system](http://gulpjs.com/) shines at its best. It has great rapidly growing community proving [open source plugins](http://gulpjs.com/plugins/) for all possible tasks you can imagine. Just <em>google "gulp" with whatever task you want</em> ;)
 
 Use [provided `Gulpfile.js`](https://github.com/dmitriz/gulp-automation/blob/master/Gulpfile.js) to edit and add more tasks or write a new one!
+
+## How is LiveReload working?
+
+The watcher part (`gulp` task "watch") listens for file changes and sends notification to the LiveReload server (default port `35729`). 
+The main  `connect` server (`gulp` task "connect") injects the following script into your HTML:
+```html
+<script src="//localhost:35729/livereload.js?snipver=1"></script>
+```
+That way your browser listens to the LiveReload server and reacts to change notifications. 
+[See here for more technical details on how the LiveReload protocol works](http://feedback.livereload.com/knowledgebase/articles/86174-livereload-protocol)
 
 
 ## Now enjoy and read more tips in that file that loads in your browser!
