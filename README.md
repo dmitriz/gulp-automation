@@ -9,7 +9,7 @@ Status](https://travis-ci.org/dmitriz/gulp-automation.svg?branch=master)](https:
 
 Surprisingly there seems to be lack of **simple clean working solutions** that are **easy to install, maintain and customize**. 
 
-Many of them are based on installing a **Chrome browser extension**. However, in addition to being **limited** to the Chrome browser, [extensions are **vulnerable**](http://www.techrepublic.com/blog/it-security/chrome-extensions-are-vulnerable-advantage-bad-guys/). Extensions can also be guilty to slow down your browser, by adding unnecessary and slow running scripts blocking your useful content. As extension runs on **every page** in your browser, it doesn't seem to be a good fit for the purpose of LiveReload.
+Many of them are based on installing a **Chrome browser extension**. However, in addition to being **limited** to the Chrome browser, [extensions are potentially **vulnerable**](http://www.techrepublic.com/blog/it-security/chrome-extensions-are-vulnerable-advantage-bad-guys/). Extensions can also be guilty to slow down your browser, by adding unnecessary and slow running scripts blocking your useful content. As extension runs on **every page** in your browser, it doesn't seem to be a good fit for the purpose of LiveReload.
 
 Other solutions are based on manually adding a script tag inside your HTML file. This adds to the **maintenance headache** to remember removing it from your production code, among others.
 
