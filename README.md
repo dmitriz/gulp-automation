@@ -37,13 +37,13 @@ Use [provided `Gulpfile.js`](https://github.com/dmitriz/gulp-automation/blob/mas
 
 ## How is LiveReload working?
 
-The watcher part (`gulp` task "watch") listens for file changes and sends notification to the LiveReload server (default port `35729`). 
-The main  `connect` server (`gulp` task "connect") injects the following script into your HTML:
+The watcher part (`gulp` task "watch") listens for file changes and sends notification to the LiveReload server (running by default at port `35729`). 
+The main  `connect` server at port `8080` (`gulp` task "connect") injects the following script into your HTML:
 ```html
 <script src="//localhost:35729/livereload.js?snipver=1"></script>
 ```
 That way your browser listens to the LiveReload server and reacts to change notifications. 
-[See here for more technical details on how the LiveReload protocol works](http://feedback.livereload.com/knowledgebase/articles/86174-livereload-protocol)
+[See here for more technical details on how the LiveReload protocol works.](http://feedback.livereload.com/knowledgebase/articles/86174-livereload-protocol)
 
 
 ## Now enjoy and read more tips in that file that loads in your browser!
