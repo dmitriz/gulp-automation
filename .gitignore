@@ -1,3 +1,4 @@
 .DS_Store
 !Gulpfile-long.js
 !gulp.conf.js
+node_modules
