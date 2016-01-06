@@ -19,8 +19,9 @@
     "connect": "^2.14.4",
     "connect-livereload": "^0.5.3",
     "gulp": "^3.8.5",
-    "gulp-livereload": "^3.8.0",
-    "opn": "^1.0.1"
+    "gulp-livereload": "^3.8.1",
+    "opn": "^1.0.1",
+    "vinyl-fs": "^2.2.1"
   },
   "scripts": {
     "start": "gulp"
@@ -29,5 +30,5 @@
     "url": "https://github.com/dmitriz/gulp-automation/issues/",
     "email": "dmitri14@gmail.com"
   },
-  "license": "MIT" 
+  "license": "MIT"
 }
