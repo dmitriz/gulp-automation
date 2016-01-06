@@ -1,5 +1,5 @@
 {
-  "name": "dz-gulp-automation",
+  "name": "z-auto",
   "description": "The simplest Live Reload environment",
   "version": "0.3.0",
   "author": {
@@ -10,6 +10,11 @@
     "type": "git",
     "url": "https://github.com/dmitriz/gulp-automation.git"
   },
+  "keywords": [
+    "livereload",
+    "gulp",
+    "server"
+  ],
   "dependencies": {
     "connect": "^2.14.4",
     "connect-livereload": "^0.5.3",
@@ -23,5 +28,6 @@
   "bugs": {
     "url": "https://github.com/dmitriz/gulp-automation/issues/",
     "email": "dmitri14@gmail.com"
-  }
+  },
+  "license": "MIT" 
 }
