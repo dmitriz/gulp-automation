@@ -1,5 +1,5 @@
 # gulp-automation
-Automating the most painful parts of your code management!
+Automating Live Reload, see also [Minimal Server setup](https://github.com/dmitriz/min-server)
 
 [![Build
 Status](https://travis-ci.org/dmitriz/gulp-automation.svg?branch=master)](https://travis-ci.org/dmitriz/gulp-automation)
