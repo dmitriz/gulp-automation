@@ -1,4 +1,7 @@
 # gulp-automation
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/dmitriz/gulp-automation.svg)](https://greenkeeper.io/)
+
 Automating Live Reload, see also [Minimal Server setup](https://github.com/dmitriz/min-server)
 
 [![Build
