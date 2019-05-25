@@ -24,7 +24,8 @@
     "vinyl-fs": "^2.2.1"
   },
   "scripts": {
-    "start": "gulp"
+    "start": "gulp",
+    "test": "npm start"
   },
   "bugs": {
     "url": "https://github.com/dmitriz/gulp-automation/issues/",
