@@ -25,7 +25,7 @@
   },
   "scripts": {
     "start": "gulp",
-    "test": "npm start"
+    "test": "gulp"
   },
   "bugs": {
     "url": "https://github.com/dmitriz/gulp-automation/issues/",
