@@ -16,16 +16,15 @@
     "server"
   ],
   "dependencies": {
-    "connect": "^2.14.4",
-    "connect-livereload": "^0.5.3",
-    "gulp": "^3.8.5",
-    "gulp-livereload": "^3.8.1",
-    "opn": "^1.0.1",
-    "vinyl-fs": "^2.2.1"
+    "connect": "^3.7.0",
+    "connect-livereload": "^0.6.1",
+    "gulp": "^4.0.2",
+    "gulp-livereload": "^4.0.1",
+    "opn": "^6.0.0",
+    "vinyl-fs": "^3.0.3"
   },
   "scripts": {
-    "start": "gulp",
-    "test": "gulp"
+    "start": "gulp"
   },
   "bugs": {
     "url": "https://github.com/dmitriz/gulp-automation/issues/",
