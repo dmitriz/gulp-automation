@@ -66,7 +66,7 @@ gulp.task('connect', function(){
     .use(connectLivereload())
 
     // specify the root directory for our connect server
-    .use(connect.static(config.rootDir))
+    .use(connect.static(__dirname))
 
     // start the server at the given port
     //   now we can view our `index.html` in the root under `localhost:port`
