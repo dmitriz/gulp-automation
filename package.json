@@ -19,7 +19,7 @@
     "connect": "^3.7.0",
     "connect-livereload": "^0.6.1",
     "gulp": "^4.0.2",
-    "gulp-livereload": "^4.0.1",
+    "gulp-livereload": "^4.0.2",
     "opn": "^6.0.0",
     "vinyl-fs": "^3.0.3"
   },
